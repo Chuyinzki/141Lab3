@@ -1,0 +1,270 @@
+# vsim +altera -do 141Core_run_msim_rtl_verilog.do -l msim_transcript -gui work.core_tb 
+# Loading sv_std.std
+# Loading work.core_tb_sv_unit
+# Loading work.core_tb
+# Loading work.data_mem_sv_unit
+# Loading work.data_mem
+# Loading work.core_flattened_sv_unit
+# Loading work.core_flattened
+# Loading work.core_sv_unit
+# Loading work.core
+# Loading work.instr_mem_sv_unit
+# Loading work.instr_mem
+# Loading work.reg_file
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.cl_decode_sv_unit
+# Loading work.cl_decode
+# Loading work.cl_state_machine_sv_unit
+# Loading work.cl_state_machine
+# Loading work.net_packet_logger_s_sv_unit
+# Loading work.network_packet_s_logger
+# 141Core_run_msim_rtl_verilog.do 
+# invalid command name "141Core_run_msim_rtl_verilog.do"
+add wave -position insertpoint  \
+sim:/core_tb/instr_length_p \
+sim:/core_tb/instr_buffer_size_p \
+sim:/core_tb/data_buffer_size_p \
+sim:/core_tb/reg_packet_width_p \
+sim:/core_tb/inst_counter \
+sim:/core_tb/clk \
+sim:/core_tb/reset \
+sim:/core_tb/reset_r \
+sim:/core_tb/i \
+sim:/core_tb/ins_packet \
+sim:/core_tb/data_packet \
+sim:/core_tb/reg_packet \
+sim:/core_tb/instruct_t \
+sim:/core_tb/mem_in2 \
+sim:/core_tb/mem_in1 \
+sim:/core_tb/mem_in \
+sim:/core_tb/mem_in1_flat \
+sim:/core_tb/mem_in_flat \
+sim:/core_tb/mem_out \
+sim:/core_tb/mem_out_flat \
+sim:/core_tb/select \
+sim:/core_tb/data_mem_addr \
+sim:/core_tb/data_mem_addr1 \
+sim:/core_tb/data_mem_addr2 \
+sim:/core_tb/core_in \
+sim:/core_tb/core_out \
+sim:/core_tb/packet \
+sim:/core_tb/core_in_flat \
+sim:/core_tb/core_out_flat \
+sim:/core_tb/barrier_OR \
+sim:/core_tb/debug \
+sim:/core_tb/exception \
+sim:/core_tb/cycle_counter_r \
+sim:/core_tb/pass_fail_code_done \
+sim:/core_tb/stop_simulator
+run -all
+# --------VANILLA HAS BOOTED---------
+# {00000001}   PC=000 INSTR=10 BEQZ  00 0c;        =         ; 
+# {00000002}   PC=00c INSTR=10 BEQZ  00 3f;        =         ; 
+# {00000003}   PC=00b INSTR=10 BEQZ  00 02;        =         ; 
+# {00000004}   PC=00d INSTR=0a MOV   05 27; RF[05] = 00000001; 
+# {00000005}   PC=00e INSTR=0a MOV   0a 32; RF[0a] = c0ffeeee; 
+# {00000006}   PC=00f INSTR=0a MOV   0b 2d; RF[0b] = c0dec0de; 
+# {00000007}   PC=010 INSTR=0a MOV   0c 2e; RF[0c] = deaddead; 
+# {00000008}   PC=011 INSTR=0a MOV   0d 36; RF[0d] = 600dbeef; 
+# {00000009}   PC=012 INSTR=10 BEQZ  05 03;        =         ; 
+# {0000000a} s PC=013 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 00000001; 
+# {0000000b}   PC=013 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x00000001          1 (CYCLE 0x0000000b         11)
+# {0000000c}   PC=014 INSTR=10 BEQZ  00 03;        =         ; 
+# {0000000d}   PC=017 INSTR=00 ADDU  05 27; RF[05] = 00000002; 
+# {0000000e}   PC=018 INSTR=0a MOV   07 25; RF[07] = 11111111; 
+# {0000000f}   PC=019 INSTR=00 ADDU  07 26; RF[07] = 00000000; 
+# {00000010}   PC=01a INSTR=10 BEQZ  07 03;        =         ; 
+# {00000011} s PC=01d INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 00000002; 
+# {00000012}   PC=01d INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x00000002          2 (CYCLE 0x00000012         18)
+# {00000013}   PC=01e INSTR=00 ADDU  05 27; RF[05] = 00000003; 
+# {00000014}   PC=01f INSTR=0a MOV   07 00; RF[07] = 00000000; 
+# {00000015}   PC=020 INSTR=01 SUBU  07 27; RF[07] = ffffffff; 
+# {00000016}   PC=021 INSTR=00 ADDU  07 27; RF[07] = 00000000; 
+# {00000017}   PC=022 INSTR=10 BEQZ  07 03;        =         ; 
+# {00000018} s PC=025 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 00000003; 
+# {00000019}   PC=025 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x00000003          3 (CYCLE 0x00000019         25)
+# {0000001a}   PC=026 INSTR=00 ADDU  05 27; RF[05] = 00000004; 
+# {0000001b}   PC=027 INSTR=0a MOV   07 00; RF[07] = 00000000; 
+# {0000001c}   PC=028 INSTR=01 SUBU  07 27; RF[07] = ffffffff; 
+# {0000001d}   PC=029 INSTR=00 ADDU  07 27; RF[07] = 00000000; 
+# {0000001e}   PC=02a INSTR=10 BEQZ  07 03;        =         ; 
+# {0000001f} s PC=02d INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 00000004; 
+# {00000020}   PC=02d INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x00000004          4 (CYCLE 0x00000020         32)
+# {00000021}   PC=02e INSTR=00 ADDU  05 27; RF[05] = 00000005; 
+# {00000022}   PC=02f INSTR=17 JALR  01 31; RF[01] = 00000030; 
+# {00000023}   PC=031 INSTR=00 ADDU  01 28; RF[01] = 00000034; 
+# {00000024}   PC=032 INSTR=17 JALR  00 01; RF[00] = 00000033; 
+# {00000025} s PC=034 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 00000005; 
+# {00000026}   PC=034 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x00000005          5 (CYCLE 0x00000026         38)
+# {00000027}   PC=035 INSTR=00 ADDU  05 27; RF[05] = 00000006; 
+# {00000028}   PC=036 INSTR=0a MOV   08 2f; RF[08] = 00000004; 
+# {00000029} s PC=037 INSTR=1a SW    08 21;        =         ; MEM4[00000004] = aaaa5555; 
+# {0000002a}   PC=037 INSTR=1a SW    08 21;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# {0000002b}   PC=038 INSTR=00 ADDU  08 27; RF[08] = 00000005; 
+# {0000002c}   PC=039 INSTR=00 ADDU  08 27; RF[08] = 00000006; 
+# {0000002d} s PC=03a INSTR=19 LBU   07 08;        =         ; MEM1[00000006] READREQ; 
+# {0000002e}   PC=03a INSTR=19 LBU   07 08; RF[07] = 000000aa;  \-> MEM YUMI (000000aa); 
+# {0000002f}   PC=03b INSTR=0a MOV   06 22; RF[06] = 000000aa; 
+# {00000030}   PC=03c INSTR=17 JALR  01 33; RF[01] = 0000003d; 
+# {00000031}   PC=001 INSTR=01 SUBU  07 06; RF[07] = 00000000; 
+# {00000032}   PC=002 INSTR=10 BEQZ  07 07;        =         ; 
+# {00000033} s PC=009 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 00000006; 
+# {00000034}   PC=009 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x00000006          6 (CYCLE 0x00000034         52)
+# {00000035}   PC=00a INSTR=17 JALR  00 01; RF[00] = 0000000b; 
+# {00000036}   PC=03d INSTR=00 ADDU  05 27; RF[05] = 00000007; 
+# {00000037}   PC=03e INSTR=0a MOV   07 00; RF[07] = 00000000; 
+# {00000038} s PC=03f INSTR=18 LW    07 23;        =         ; MEM4[00000000] READREQ; 
+# {00000039}   PC=03f INSTR=18 LW    07 23; RF[07] = aaaa5555;  \-> MEM YUMI (aaaa5555); 
+# {0000003a}   PC=040 INSTR=0a MOV   06 21; RF[06] = aaaa5555; 
+# {0000003b}   PC=041 INSTR=17 JALR  01 33; RF[01] = 00000042; 
+# {0000003c}   PC=001 INSTR=01 SUBU  07 06; RF[07] = 00000000; 
+# {0000003d}   PC=002 INSTR=10 BEQZ  07 07;        =         ; 
+# {0000003e} s PC=009 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 00000007; 
+# {0000003f}   PC=009 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x00000007          7 (CYCLE 0x0000003f         63)
+# {00000040}   PC=00a INSTR=17 JALR  00 01; RF[00] = 0000000b; 
+# {00000041}   PC=042 INSTR=00 ADDU  05 27; RF[05] = 00000008; 
+# {00000042}   PC=043 INSTR=0a MOV   08 2f; RF[08] = 00000004; 
+# {00000043}   PC=044 INSTR=00 ADDU  08 27; RF[08] = 00000005; 
+# {00000044}   PC=045 INSTR=00 ADDU  08 27; RF[08] = 00000006; 
+# {00000045} s PC=046 INSTR=1b SB    08 00;        =         ; MEM1[00000006] = 00000000; 
+# {00000046}   PC=046 INSTR=1b SB    08 00;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# {00000047}   PC=047 INSTR=0a MOV   07 00; RF[07] = 00000000; 
+# {00000048} s PC=048 INSTR=18 LW    07 2f;        =         ; MEM4[00000004] READREQ; 
+# {00000049}   PC=048 INSTR=18 LW    07 2f; RF[07] = aa005555;  \-> MEM YUMI (aa005555); 
+# {0000004a}   PC=049 INSTR=0a MOV   06 24; RF[06] = aa005555; 
+# {0000004b}   PC=04a INSTR=17 JALR  01 33; RF[01] = 0000004b; 
+# {0000004c}   PC=001 INSTR=01 SUBU  07 06; RF[07] = 00000000; 
+# {0000004d}   PC=002 INSTR=10 BEQZ  07 07;        =         ; 
+# {0000004e} s PC=009 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 00000008; 
+# {0000004f}   PC=009 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x00000008          8 (CYCLE 0x0000004f         79)
+# {00000050}   PC=00a INSTR=17 JALR  00 01; RF[00] = 0000000b; 
+# {00000051}   PC=04b INSTR=00 ADDU  05 27; RF[05] = 00000009; 
+# {00000052}   PC=04c INSTR=0a MOV   02 00; RF[02] = 00000000; 
+# {00000053}   PC=04d INSTR=00 ADDU  02 27; RF[02] = 00000001; 
+# {00000054}   PC=04e INSTR=11 BNEQZ 02 03;        =         ; 
+# {00000055} s PC=051 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 00000009; 
+# {00000056}   PC=051 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x00000009          9 (CYCLE 0x00000056         86)
+# {00000057}   PC=052 INSTR=00 ADDU  05 27; RF[05] = 0000000a; 
+# {00000058}   PC=053 INSTR=0a MOV   02 00; RF[02] = 00000000; 
+# {00000059}   PC=054 INSTR=01 SUBU  02 27; RF[02] = ffffffff; 
+# {0000005a}   PC=055 INSTR=13 BLTZ  02 03;        =         ; 
+# {0000005b} s PC=058 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 0000000a; 
+# {0000005c}   PC=058 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x0000000a         10 (CYCLE 0x0000005c         92)
+# {0000005d}   PC=059 INSTR=00 ADDU  05 27; RF[05] = 0000000b; 
+# {0000005e}   PC=05a INSTR=0a MOV   02 00; RF[02] = 00000000; 
+# {0000005f}   PC=05b INSTR=00 ADDU  02 27; RF[02] = 00000001; 
+# {00000060}   PC=05c INSTR=12 BGTZ  02 03;        =         ; 
+# {00000061} s PC=05f INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 0000000b; 
+# {00000062}   PC=05f INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x0000000b         11 (CYCLE 0x00000062         98)
+# {00000063}   PC=060 INSTR=00 ADDU  05 27; RF[05] = 0000000c; 
+# {00000064}   PC=061 INSTR=0a MOV   07 00; RF[07] = 00000000; 
+# {00000065}   PC=062 INSTR=01 SUBU  07 27; RF[07] = ffffffff; 
+# {00000066}   PC=063 INSTR=08 SLT   07 00; RF[07] = 00000001; 
+# {00000067}   PC=064 INSTR=0a MOV   06 27; RF[06] = 00000001; 
+# {00000068}   PC=065 INSTR=17 JALR  01 33; RF[01] = 00000066; 
+# {00000069}   PC=001 INSTR=01 SUBU  07 06; RF[07] = 00000000; 
+# {0000006a}   PC=002 INSTR=10 BEQZ  07 07;        =         ; 
+# {0000006b} s PC=009 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 0000000c; 
+# {0000006c}   PC=009 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x0000000c         12 (CYCLE 0x0000006c        108)
+# {0000006d}   PC=00a INSTR=17 JALR  00 01; RF[00] = 0000000b; 
+# {0000006e}   PC=066 INSTR=00 ADDU  05 27; RF[05] = 0000000d; 
+# {0000006f}   PC=067 INSTR=0a MOV   07 00; RF[07] = 00000000; 
+# {00000070}   PC=068 INSTR=01 SUBU  07 27; RF[07] = ffffffff; 
+# {00000071}   PC=069 INSTR=09 SLTU  07 00; RF[07] = 00000000; 
+# {00000072}   PC=06a INSTR=0a MOV   06 00; RF[06] = 00000000; 
+# {00000073}   PC=06b INSTR=17 JALR  01 33; RF[01] = 0000006c; 
+# {00000074}   PC=001 INSTR=01 SUBU  07 06; RF[07] = 00000000; 
+# {00000075}   PC=002 INSTR=10 BEQZ  07 07;        =         ; 
+# {00000076} s PC=009 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 0000000d; 
+# {00000077}   PC=009 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x0000000d         13 (CYCLE 0x00000077        119)
+# {00000078}   PC=00a INSTR=17 JALR  00 01; RF[00] = 0000000b; 
+# {00000079}   PC=06c INSTR=00 ADDU  05 27; RF[05] = 0000000e; 
+# {0000007a}   PC=06d INSTR=0a MOV   07 34; RF[07] = 0000ffff; 
+# {0000007b}   PC=06e INSTR=0a MOV   02 37; RF[02] = 00ff00ff; 
+# {0000007c}   PC=06f INSTR=05 AND   07 02; RF[07] = 000000ff; 
+# {0000007d}   PC=070 INSTR=0a MOV   06 29; RF[06] = 000000ff; 
+# {0000007e}   PC=071 INSTR=17 JALR  01 33; RF[01] = 00000072; 
+# {0000007f}   PC=001 INSTR=01 SUBU  07 06; RF[07] = 00000000; 
+# {00000080}   PC=002 INSTR=10 BEQZ  07 07;        =         ; 
+# {00000081} s PC=009 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 0000000e; 
+# {00000082}   PC=009 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x0000000e         14 (CYCLE 0x00000082        130)
+# {00000083}   PC=00a INSTR=17 JALR  00 01; RF[00] = 0000000b; 
+# {00000084}   PC=072 INSTR=00 ADDU  05 27; RF[05] = 0000000f; 
+# {00000085}   PC=073 INSTR=0a MOV   07 34; RF[07] = 0000ffff; 
+# {00000086}   PC=074 INSTR=0a MOV   02 37; RF[02] = 00ff00ff; 
+# {00000087}   PC=075 INSTR=06 OR    07 02; RF[07] = 00ffffff; 
+# {00000088}   PC=076 INSTR=0a MOV   06 30; RF[06] = 00ffffff; 
+# {00000089}   PC=077 INSTR=17 JALR  01 33; RF[01] = 00000078; 
+# {0000008a}   PC=001 INSTR=01 SUBU  07 06; RF[07] = 00000000; 
+# {0000008b}   PC=002 INSTR=10 BEQZ  07 07;        =         ; 
+# {0000008c} s PC=009 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 0000000f; 
+# {0000008d}   PC=009 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x0000000f         15 (CYCLE 0x0000008d        141)
+# {0000008e}   PC=00a INSTR=17 JALR  00 01; RF[00] = 0000000b; 
+# {0000008f}   PC=078 INSTR=00 ADDU  05 27; RF[05] = 00000010; 
+# {00000090}   PC=079 INSTR=0a MOV   07 34; RF[07] = 0000ffff; 
+# {00000091}   PC=07a INSTR=0a MOV   02 37; RF[02] = 00ff00ff; 
+# {00000092}   PC=07b INSTR=07 NOR   07 02; RF[07] = ff000000; 
+# {00000093}   PC=07c INSTR=0a MOV   06 35; RF[06] = ff000000; 
+# {00000094}   PC=07d INSTR=17 JALR  01 33; RF[01] = 0000007e; 
+# {00000095}   PC=001 INSTR=01 SUBU  07 06; RF[07] = 00000000; 
+# {00000096}   PC=002 INSTR=10 BEQZ  07 07;        =         ; 
+# {00000097} s PC=009 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 00000010; 
+# {00000098}   PC=009 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x00000010         16 (CYCLE 0x00000098        152)
+# {00000099}   PC=00a INSTR=17 JALR  00 01; RF[00] = 0000000b; 
+# {0000009a}   PC=07e INSTR=00 ADDU  05 27; RF[05] = 00000011; 
+# {0000009b}   PC=07f INSTR=0a MOV   07 20; RF[07] = 80000000; 
+# {0000009c}   PC=080 INSTR=02 SLLV  07 27; RF[07] = 00000000; 
+# {0000009d}   PC=081 INSTR=0a MOV   06 00; RF[06] = 00000000; 
+# {0000009e}   PC=082 INSTR=17 JALR  01 33; RF[01] = 00000083; 
+# {0000009f}   PC=001 INSTR=01 SUBU  07 06; RF[07] = 00000000; 
+# {000000a0}   PC=002 INSTR=10 BEQZ  07 07;        =         ; 
+# {000000a1} s PC=009 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 00000011; 
+# {000000a2}   PC=009 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x00000011         17 (CYCLE 0x000000a2        162)
+# {000000a3}   PC=00a INSTR=17 JALR  00 01; RF[00] = 0000000b; 
+# {000000a4}   PC=083 INSTR=00 ADDU  05 27; RF[05] = 00000012; 
+# {000000a5}   PC=084 INSTR=0a MOV   07 20; RF[07] = 80000000; 
+# {000000a6}   PC=085 INSTR=03 SRAV  07 27; RF[07] = c0000000; 
+# {000000a7}   PC=086 INSTR=0a MOV   06 2b; RF[06] = c0000000; 
+# {000000a8}   PC=087 INSTR=17 JALR  01 33; RF[01] = 00000088; 
+# {000000a9}   PC=001 INSTR=01 SUBU  07 06; RF[07] = 00000000; 
+# {000000aa}   PC=002 INSTR=10 BEQZ  07 07;        =         ; 
+# {000000ab} s PC=009 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 00000012; 
+# {000000ac}   PC=009 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x00000012         18 (CYCLE 0x000000ac        172)
+# {000000ad}   PC=00a INSTR=17 JALR  00 01; RF[00] = 0000000b; 
+# {000000ae}   PC=088 INSTR=00 ADDU  05 27; RF[05] = 00000013; 
+# {000000af}   PC=089 INSTR=0a MOV   07 20; RF[07] = 80000000; 
+# {000000b0}   PC=08a INSTR=04 SRLV  07 27; RF[07] = 40000000; 
+# {000000b1}   PC=08b INSTR=0a MOV   06 2c; RF[06] = 40000000; 
+# {000000b2}   PC=08c INSTR=17 JALR  01 33; RF[01] = 0000008d; 
+# {000000b3}   PC=001 INSTR=01 SUBU  07 06; RF[07] = 00000000; 
+# {000000b4}   PC=002 INSTR=10 BEQZ  07 07;        =         ; 
+# {000000b5} s PC=009 INSTR=1a SW    0a 05;        =         ; MEM4[c0ffeeee] = 00000013; 
+# {000000b6}   PC=009 INSTR=1a SW    0a 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# PASS: 0x00000013         19 (CYCLE 0x000000b6        182)
+# {000000b7}   PC=00a INSTR=17 JALR  00 01; RF[00] = 0000000b; 
+# {000000b8}   PC=08d INSTR=0c BAR   10 2a;        =         ; 
+# {000000b9} barrier OR changed from        0 to        2
+# {000000b9} s PC=08e INSTR=1a SW    0d 05;        =         ; MEM4[600dbeef] = 00000013; 
+# {000000ba} barrier OR changed from        0 to        2
+# {000000ba}   PC=08e INSTR=1a SW    0d 05;        =         ;  \-> MEM YUMI (xxxxxxxx); 
+# DONE: 0x00000013         19 (CYCLE 0x000000ba        186)
+# Break in Module core_tb at C:/altera/14.0/141Core/core/lab1/core_tb.sv line 259

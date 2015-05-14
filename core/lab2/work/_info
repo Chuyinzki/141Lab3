@@ -1,0 +1,509 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\14.0\141Core\core\lab2
+valu
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 DXx4 work 11 alu_sv_unit 0 22 =cYO77F[CH><S^=ZZaI[60
+Z3 VI7lk`SQ8Za@A6?2c<@gWI2
+r1
+31
+Z4 !s100 MPgZQAz7Un8ZROgz53@<;0
+Z5 IJUM=TeLToIlKInFZfJ3[m3
+Z6 !s105 alu_sv_unit
+S1
+Z7 dC:\altera\14.0\141Core\core\lab2
+Z8 w1431097874
+Z9 8C:/altera/14.0/141Core/core/lab2/alu.sv
+Z10 FC:/altera/14.0/141Core/core/lab2/alu.sv
+L0 4
+Z11 OV;L;10.1e;51
+Z12 !s108 1431099753.705000
+Z13 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab2/alu.sv|
+Z14 !s90 -reportprogress|300|-work|work|-O0|C:/altera/14.0/141Core/core/lab2/alu.sv|
+Z15 o-work work -O0
+!s85 0
+!i10b 1
+!s101 -O0
+Xalu_sv_unit
+R1
+Z16 V=cYO77F[CH><S^=ZZaI[60
+r1
+31
+Z17 !s100 >JfKGIMFRlz9QdhUcTc2[1
+Z18 I=cYO77F[CH><S^=ZZaI[60
+S1
+R7
+R8
+R9
+R10
+Z19 Fdefinitions.sv
+L1 54
+R11
+R12
+R13
+R14
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vcl_decode
+R1
+Z20 DXx4 work 17 cl_decode_sv_unit 0 22 7jRTd8B:QAzPVgMZCeWXi3
+Z21 Vj2XdPkIgM0O^Hn@`n`AWZ1
+r1
+31
+Z22 !s100 lNVE1oL4?VQhBK__VEE`A3
+Z23 IWL]L1I@`]@Ai2?BF9fWmf0
+Z24 !s105 cl_decode_sv_unit
+S1
+R7
+R8
+Z25 8C:/altera/14.0/141Core/core/lab2/cl_decode.sv
+Z26 FC:/altera/14.0/141Core/core/lab2/cl_decode.sv
+L0 4
+R11
+Z27 !s108 1431099753.347000
+Z28 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab2/cl_decode.sv|
+Z29 !s90 -reportprogress|300|-work|work|-O0|C:/altera/14.0/141Core/core/lab2/cl_decode.sv|
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+Xcl_decode_sv_unit
+R1
+Z30 V7jRTd8B:QAzPVgMZCeWXi3
+r1
+31
+Z31 !s100 OOCn2oSK?Sm^`dAV?I35o3
+Z32 I7jRTd8B:QAzPVgMZCeWXi3
+S1
+R7
+R8
+R25
+R26
+R19
+L1 54
+R11
+R27
+R28
+R29
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vcl_state_machine
+R1
+Z33 DXx4 work 24 cl_state_machine_sv_unit 0 22 hzXnF[JjK8^38Y3@IeCIe0
+Z34 V_HO6g@<O=0IE^>?5Z5=h`1
+r1
+31
+Z35 !s100 g^2SoOB1m>[kFZ_<VH<?60
+Z36 IhXIjU`hT9nkkYb:dKL==z1
+Z37 !s105 cl_state_machine_sv_unit
+S1
+R7
+R8
+Z38 8C:/altera/14.0/141Core/core/lab2/cl_state_machine.sv
+Z39 FC:/altera/14.0/141Core/core/lab2/cl_state_machine.sv
+L0 3
+R11
+Z40 !s108 1431099752.993000
+Z41 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab2/cl_state_machine.sv|
+Z42 !s90 -reportprogress|300|-work|work|-O0|C:/altera/14.0/141Core/core/lab2/cl_state_machine.sv|
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+Xcl_state_machine_sv_unit
+R1
+Z43 VhzXnF[JjK8^38Y3@IeCIe0
+r1
+31
+Z44 !s100 Z[LlB`X=F>:MoQz1gjmI13
+Z45 IhzXnF[JjK8^38Y3@IeCIe0
+S1
+R7
+R8
+R38
+R39
+R19
+L1 54
+R11
+R40
+R41
+R42
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vcore
+R1
+Z46 DXx4 work 12 core_sv_unit 0 22 8W2[X=>34a5AFo2]1AFd;3
+Z47 V8g;U8en<PLBg@@AL4CL>f3
+r1
+31
+Z48 !s100 LabII?OJ0TP7L<iWXMdOX3
+Z49 IOeLZfE5X7j?jC;1CU[GIJ2
+Z50 !s105 core_sv_unit
+S1
+R7
+R8
+Z51 8C:/altera/14.0/141Core/core/lab2/core.sv
+Z52 FC:/altera/14.0/141Core/core/lab2/core.sv
+L0 3
+R11
+Z53 !s108 1431099752.624000
+Z54 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab2/core.sv|
+Z55 !s90 -reportprogress|300|-work|work|-O0|C:/altera/14.0/141Core/core/lab2/core.sv|
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+vcore_flattened
+R1
+Z56 DXx4 work 22 core_flattened_sv_unit 0 22 nIadJ@zRg=1_;n<3ET1051
+Z57 V2R0=69R;zAfBGzKl1Q]2X0
+r1
+31
+Z58 !s100 X2_6b0_1B<Zm@X3X7LDMP3
+Z59 Ile7WB>d4e_LG7@oGIIJKm3
+Z60 !s105 core_flattened_sv_unit
+S1
+R7
+Z61 w1429649108
+Z62 8C:/altera/14.0/141Core/core/lab2/core_flattened.sv
+Z63 FC:/altera/14.0/141Core/core/lab2/core_flattened.sv
+L0 4
+R11
+Z64 !s108 1431099752.473000
+Z65 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab2/core_flattened.sv|
+Z66 !s90 -reportprogress|300|-work|work|-O0|C:/altera/14.0/141Core/core/lab2/core_flattened.sv|
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+Xcore_flattened_sv_unit
+R1
+Z67 VnIadJ@zRg=1_;n<3ET1051
+r1
+31
+Z68 !s100 fm9NmbXTEb^O4228[ifQ:1
+Z69 InIadJ@zRg=1_;n<3ET1051
+S1
+R7
+R8
+R62
+R63
+R19
+L1 54
+R11
+R64
+R65
+R66
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+Xcore_sv_unit
+R1
+Z70 V8W2[X=>34a5AFo2]1AFd;3
+r1
+31
+Z71 !s100 N3e[EF@OehaH]AG84``R?3
+Z72 I8W2[X=>34a5AFo2]1AFd;3
+S1
+R7
+R8
+R51
+R52
+R19
+L1 54
+R11
+R53
+R54
+R55
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vcore_tb
+R1
+Z73 DXx4 work 15 core_tb_sv_unit 0 22 ]b6E<[hU07QOcb@8M?D3d1
+Z74 VlN3iUPNV?OYGNgj@DJaoE2
+r1
+31
+Z75 !s100 8UVo3DI?9fPH6ohhBY>I@0
+Z76 Ic8XiT]ALjdlYBbLGImT=c1
+Z77 !s105 core_tb_sv_unit
+S1
+R7
+Z78 w1430084619
+Z79 8C:/altera/14.0/141Core/core/lab2/core_tb.sv
+Z80 FC:/altera/14.0/141Core/core/lab2/core_tb.sv
+L0 17
+R11
+Z81 !s108 1431099751.868000
+Z82 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab2/core_tb.sv|
+Z83 !s90 -reportprogress|300|-work|work|-O0|C:/altera/14.0/141Core/core/lab2/core_tb.sv|
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+Xcore_tb_sv_unit
+R1
+Z84 V]b6E<[hU07QOcb@8M?D3d1
+r1
+31
+Z85 !s100 nOIb^P=HhU3a^6kVdMKcg3
+Z86 I]b6E<[hU07QOcb@8M?D3d1
+S1
+R7
+R8
+R79
+R80
+R19
+L1 54
+R11
+R81
+R82
+R83
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vdata_mem
+R1
+Z87 DXx4 work 16 data_mem_sv_unit 0 22 DY>X<mh5nQSK3V@kYPKZT3
+Z88 VJTgBNdnj9c=zg80[gUozo3
+r1
+31
+Z89 !s100 ?VcbfN5?iaLQkHCoUNA830
+Z90 IlhL[oQ[ZQ3K[jSb27iBzH0
+Z91 !s105 data_mem_sv_unit
+S1
+R7
+R61
+Z92 8C:/altera/14.0/141Core/core/lab2/data_mem.sv
+Z93 FC:/altera/14.0/141Core/core/lab2/data_mem.sv
+L0 11
+R11
+Z94 !s108 1431099751.447000
+Z95 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab2/data_mem.sv|
+Z96 !s90 -reportprogress|300|-work|work|-O0|C:/altera/14.0/141Core/core/lab2/data_mem.sv|
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+Xdata_mem_sv_unit
+R1
+Z97 VDY>X<mh5nQSK3V@kYPKZT3
+r1
+31
+Z98 !s100 i4>G2]AeQdW9coRC8?OGB3
+Z99 IDY>X<mh5nQSK3V@kYPKZT3
+S1
+R7
+R8
+R92
+R93
+R19
+L1 54
+R11
+R94
+R95
+R96
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+Xdefinitions_sv_unit
+R1
+Z100 !s100 <3D5G<P`e=_?2iSCB2j5e0
+Z101 IAMV<cO=TAdZHT^H6;knJC1
+Z102 VAMV<cO=TAdZHT^H6;knJC1
+S1
+R7
+R8
+Z103 8C:/altera/14.0/141Core/core/lab2/definitions.sv
+Z104 FC:/altera/14.0/141Core/core/lab2/definitions.sv
+L0 54
+R11
+r1
+31
+Z105 !s90 -reportprogress|300|-work|work|-O0|C:/altera/14.0/141Core/core/lab2/definitions.sv|
+R15
+Z106 !s108 1431099751.060000
+Z107 !s107 C:/altera/14.0/141Core/core/lab2/definitions.sv|
+!i10b 1
+!i103 1
+!s85 0
+!s101 -O0
+vinstr_mem
+R1
+Z108 DXx4 work 17 instr_mem_sv_unit 0 22 VD2cAm;z4<X2ij4Ba=G^G1
+Z109 VFbL0l?mC^hD9I>mmSWaGQ0
+r1
+31
+Z110 !s100 L?nm0z_M]K[o@bRfHl9Mn0
+Z111 Igo7AS8H83?GcB6C?Q9zPK1
+Z112 !s105 instr_mem_sv_unit
+S1
+R7
+R8
+Z113 8C:/altera/14.0/141Core/core/lab2/instr_mem.sv
+Z114 FC:/altera/14.0/141Core/core/lab2/instr_mem.sv
+L0 5
+R11
+Z115 !s108 1431099746.868000
+Z116 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab2/instr_mem.sv|
+Z117 !s90 -reportprogress|300|-work|work|-O0|C:/altera/14.0/141Core/core/lab2/instr_mem.sv|
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+Xinstr_mem_sv_unit
+R1
+Z118 VVD2cAm;z4<X2ij4Ba=G^G1
+r1
+31
+Z119 !s100 8RLF:X<A2W1YKim5HbF5e0
+Z120 IVD2cAm;z4<X2ij4Ba=G^G1
+S1
+R7
+R8
+R113
+R114
+R19
+L1 54
+R11
+R115
+R116
+R117
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vminer_tb
+R1
+Z121 DXx4 work 16 miner_tb_sv_unit 0 22 KGLEl^kRXzn7280NIb]1f2
+Z122 VmUcjK`[BR2I4D=oC[X9C`0
+r1
+!s85 0
+31
+!i10b 1
+!s100 E5>hQ>mEk6ic>?XoZED<01
+I3^HV;?7?V6hdcLA07bjZT2
+Z123 !s105 miner_tb_sv_unit
+S1
+R7
+Z124 w1431100442
+Z125 8C:/altera/14.0/141Core/core/lab2/miner_tb.sv
+Z126 FC:/altera/14.0/141Core/core/lab2/miner_tb.sv
+L0 21
+R11
+Z127 !s108 1431100461.075000
+Z128 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab2/miner_tb.sv|
+Z129 !s90 -reportprogress|300|-work|work|-O0|C:/altera/14.0/141Core/core/lab2/miner_tb.sv|
+!s101 -O0
+R15
+Xminer_tb_sv_unit
+R1
+Z130 VKGLEl^kRXzn7280NIb]1f2
+r1
+!s85 0
+31
+!i10b 1
+Z131 !s100 zkAId=YWC5;7?51@`;m8P2
+Z132 IKGLEl^kRXzn7280NIb]1f2
+!i103 1
+S1
+R7
+R124
+R125
+R126
+R19
+L1 54
+R11
+R127
+R128
+R129
+!s101 -O0
+R15
+Xnet_packet_logger_s_sv_unit
+R1
+Z133 Vk7mNC9KV>nJS?zEA3SIh92
+r1
+31
+Z134 !s100 nIk250>WdbYQbXTF<Vd1k0
+Z135 Ik7mNC9KV>nJS?zEA3SIh92
+S1
+R7
+R8
+Z136 8C:/altera/14.0/141Core/core/lab2/net_packet_logger_s.sv
+Z137 FC:/altera/14.0/141Core/core/lab2/net_packet_logger_s.sv
+R19
+L1 54
+R11
+Z138 !s108 1431099746.127000
+Z139 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab2/net_packet_logger_s.sv|
+Z140 !s90 -reportprogress|300|-work|work|-O0|C:/altera/14.0/141Core/core/lab2/net_packet_logger_s.sv|
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vnetwork_packet_s_logger
+R1
+Z141 DXx4 work 27 net_packet_logger_s_sv_unit 0 22 k7mNC9KV>nJS?zEA3SIh92
+Z142 VPlgif>=;4=jBTE<GHm7GV1
+r1
+31
+Z143 !s100 `2Y2^bznF_M=R2XmAUdcm3
+Z144 IAO2[cT=gW7oSM8B0HB4FX3
+Z145 !s105 net_packet_logger_s_sv_unit
+S1
+R7
+R61
+R136
+R137
+L0 8
+R11
+R138
+R139
+R140
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+vreg_file
+R1
+Z146 !s100 9Ko6CekjZ3ccYoDT7^9[W1
+Z147 IQ?K3[17jLkID>:i2XIA1B1
+Z148 VkHJ[TbDe99dlUgZJUL9]C1
+Z149 !s105 reg_file_sv_unit
+S1
+R7
+R8
+Z150 8C:/altera/14.0/141Core/core/lab2/reg_file.sv
+Z151 FC:/altera/14.0/141Core/core/lab2/reg_file.sv
+L0 2
+R11
+r1
+31
+Z152 !s90 -reportprogress|300|-work|work|-O0|C:/altera/14.0/141Core/core/lab2/reg_file.sv|
+R15
+Z153 !s108 1431099745.632000
+Z154 !s107 C:/altera/14.0/141Core/core/lab2/reg_file.sv|
+!i10b 1
+!s85 0
+!s101 -O0

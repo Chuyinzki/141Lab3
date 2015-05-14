@@ -1,0 +1,339 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\14.0\141Core\core\lab2\simulation\modelsim
+valu
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+DXx4 work 11 alu_sv_unit 0 22 SPoLR>6A:jX6ON@ZU2;Y:3
+VI7lk`SQ8Za@A6?2c<@gWI2
+r1
+!s85 0
+31
+!i10b 1
+!s100 MPgZQAz7Un8ZROgz53@<;0
+INiag^XI=e1Hf[E:Ez?[5N1
+!s105 alu_sv_unit
+S1
+Z2 dC:\altera\14.0\141Core\core\lab2\simulation\modelsim
+Z3 w1431097874
+Z4 8C:/altera/14.0/141Core/core/lab2/alu.sv
+Z5 FC:/altera/14.0/141Core/core/lab2/alu.sv
+L0 4
+Z6 OV;L;10.1e;51
+Z7 !s108 1431099705.802000
+Z8 !s107 C:/altera/14.0/141Core/core/lab2/definitions.sv|C:/altera/14.0/141Core/core/lab2/alu.sv|
+Z9 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.0/141Core/core/lab2|C:/altera/14.0/141Core/core/lab2/alu.sv|
+!s101 -O0
+Z10 o-sv -work work -O0
+Z11 !s92 -sv -work work +incdir+C:/altera/14.0/141Core/core/lab2 -O0
+Xalu_sv_unit
+R1
+VSPoLR>6A:jX6ON@ZU2;Y:3
+r1
+!s85 0
+31
+!i10b 1
+!s100 cTmS::EU6PSQF2JZjVRn>0
+ISPoLR>6A:jX6ON@ZU2;Y:3
+!i103 1
+S1
+R2
+R3
+R4
+R5
+Z12 FC:/altera/14.0/141Core/core/lab2/definitions.sv
+L1 54
+R6
+R7
+R8
+R9
+!s101 -O0
+R10
+R11
+vcl_decode
+R1
+Z13 DXx4 work 17 cl_decode_sv_unit 0 22 Z>T3GJ0bBVT]@EoYainC21
+Z14 Vj2XdPkIgM0O^Hn@`n`AWZ1
+r1
+31
+Z15 IbO>0Caj2ZWETY;ncEX9zE0
+S1
+R2
+R3
+Z16 8C:/altera/14.0/141Core/core/lab2/cl_decode.sv
+Z17 FC:/altera/14.0/141Core/core/lab2/cl_decode.sv
+L0 4
+R6
+Z18 !s108 1431099705.643000
+Z19 !s107 C:/altera/14.0/141Core/core/lab2/definitions.sv|C:/altera/14.0/141Core/core/lab2/cl_decode.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.0/141Core/core/lab2|C:/altera/14.0/141Core/core/lab2/cl_decode.sv|
+R10
+R11
+!s85 0
+!i10b 1
+Z21 !s100 lNVE1oL4?VQhBK__VEE`A3
+Z22 !s105 cl_decode_sv_unit
+!s101 -O0
+Xcl_decode_sv_unit
+R1
+Z23 VZ>T3GJ0bBVT]@EoYainC21
+r1
+31
+Z24 IZ>T3GJ0bBVT]@EoYainC21
+S1
+R2
+R3
+R16
+R17
+R12
+L1 54
+R6
+R18
+R19
+R20
+R10
+R11
+!s85 0
+!i10b 1
+Z25 !s100 h70_CY>Kg[FRoIMCU0gb@1
+!i103 1
+!s101 -O0
+vcl_state_machine
+R1
+Z26 DXx4 work 24 cl_state_machine_sv_unit 0 22 i:zJkW;TiCb4bJU[HL67m2
+Z27 V_HO6g@<O=0IE^>?5Z5=h`1
+r1
+31
+Z28 Ih;D5GaSDI<f_Z^UR2JbhS3
+S1
+R2
+R3
+Z29 8C:/altera/14.0/141Core/core/lab2/cl_state_machine.sv
+Z30 FC:/altera/14.0/141Core/core/lab2/cl_state_machine.sv
+L0 3
+R6
+Z31 !s108 1431099705.416000
+Z32 !s107 C:/altera/14.0/141Core/core/lab2/definitions.sv|C:/altera/14.0/141Core/core/lab2/cl_state_machine.sv|
+Z33 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.0/141Core/core/lab2|C:/altera/14.0/141Core/core/lab2/cl_state_machine.sv|
+R10
+R11
+Z34 !s100 g^2SoOB1m>[kFZ_<VH<?60
+Z35 !s105 cl_state_machine_sv_unit
+!s85 0
+!i10b 1
+!s101 -O0
+Xcl_state_machine_sv_unit
+R1
+Z36 Vi:zJkW;TiCb4bJU[HL67m2
+r1
+31
+Z37 Ii:zJkW;TiCb4bJU[HL67m2
+S1
+R2
+R3
+R29
+R30
+R12
+L1 54
+R6
+R31
+R32
+R33
+R10
+R11
+Z38 !s100 a;ik[R03zM:Q4NO<GQ0DK3
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vcore
+R1
+Z39 DXx4 work 12 core_sv_unit 0 22 :CYIO:g:PHG]T_aCZ5bo93
+Z40 V8g;U8en<PLBg@@AL4CL>f3
+r1
+31
+Z41 IMH3egPeCLg0<9`TXzm<P52
+S1
+R2
+R3
+Z42 8C:/altera/14.0/141Core/core/lab2/core.sv
+Z43 FC:/altera/14.0/141Core/core/lab2/core.sv
+L0 3
+R6
+Z44 !s108 1431099705.186000
+Z45 !s107 C:/altera/14.0/141Core/core/lab2/definitions.sv|C:/altera/14.0/141Core/core/lab2/core.sv|
+Z46 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.0/141Core/core/lab2|C:/altera/14.0/141Core/core/lab2/core.sv|
+R10
+R11
+Z47 !s100 LabII?OJ0TP7L<iWXMdOX3
+Z48 !s105 core_sv_unit
+!s85 0
+!i10b 1
+!s101 -O0
+vcore_flattened
+R1
+Z49 DXx4 work 22 core_flattened_sv_unit 0 22 2:T81c]0LlRz3[nf]3D2N1
+Z50 V2R0=69R;zAfBGzKl1Q]2X0
+r1
+31
+Z51 IaW3oU`oRFS36Dg?N2F:KQ2
+S1
+R2
+Z52 w1429649108
+Z53 8C:/altera/14.0/141Core/core/lab2/core_flattened.sv
+Z54 FC:/altera/14.0/141Core/core/lab2/core_flattened.sv
+L0 4
+R6
+Z55 !s108 1431099705.053000
+Z56 !s107 C:/altera/14.0/141Core/core/lab2/definitions.sv|C:/altera/14.0/141Core/core/lab2/core_flattened.sv|
+Z57 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.0/141Core/core/lab2|C:/altera/14.0/141Core/core/lab2/core_flattened.sv|
+R10
+R11
+Z58 !s100 X2_6b0_1B<Zm@X3X7LDMP3
+Z59 !s105 core_flattened_sv_unit
+!s85 0
+!i10b 1
+!s101 -O0
+Xcore_flattened_sv_unit
+R1
+Z60 V2:T81c]0LlRz3[nf]3D2N1
+r1
+31
+Z61 I2:T81c]0LlRz3[nf]3D2N1
+S1
+R2
+R3
+R53
+R54
+R12
+L1 54
+R6
+R55
+R56
+R57
+R10
+R11
+Z62 !s100 ^j1^gz1l_4@DoohUNIFQW3
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+Xcore_sv_unit
+R1
+Z63 V:CYIO:g:PHG]T_aCZ5bo93
+r1
+31
+Z64 I:CYIO:g:PHG]T_aCZ5bo93
+S1
+R2
+R3
+R42
+R43
+R12
+L1 54
+R6
+R44
+R45
+R46
+R10
+R11
+Z65 !s100 >T>@RPUS7C>4zO_aU71FO0
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+Xdefinitions_sv_unit
+R1
+Z66 I10JN<SBo^IR:TI1<Li3dl3
+Z67 V10JN<SBo^IR:TI1<Li3dl3
+S1
+R2
+R3
+Z68 8C:/altera/14.0/141Core/core/lab2/definitions.sv
+R12
+L0 54
+R6
+r1
+31
+R10
+R11
+Z69 !s100 <3D5G<P`e=_?2iSCB2j5e0
+Z70 !s108 1431099704.796000
+Z71 !s107 C:/altera/14.0/141Core/core/lab2/definitions.sv|
+Z72 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.0/141Core/core/lab2|C:/altera/14.0/141Core/core/lab2/definitions.sv|
+!i10b 1
+!i103 1
+!s85 0
+!s101 -O0
+vinstr_mem
+R1
+Z73 DXx4 work 17 instr_mem_sv_unit 0 22 ^L^]8CUSOPVTBo1`Zd<Nm3
+Z74 VFbL0l?mC^hD9I>mmSWaGQ0
+r1
+31
+Z75 Ih]Tk1bTeVLW0T6UbXQ=zo0
+S1
+R2
+R3
+Z76 8C:/altera/14.0/141Core/core/lab2/instr_mem.sv
+Z77 FC:/altera/14.0/141Core/core/lab2/instr_mem.sv
+L0 5
+R6
+Z78 !s108 1431099704.893000
+Z79 !s107 C:/altera/14.0/141Core/core/lab2/definitions.sv|C:/altera/14.0/141Core/core/lab2/instr_mem.sv|
+Z80 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.0/141Core/core/lab2|C:/altera/14.0/141Core/core/lab2/instr_mem.sv|
+R10
+R11
+Z81 !s100 L?nm0z_M]K[o@bRfHl9Mn0
+Z82 !s105 instr_mem_sv_unit
+!s85 0
+!i10b 1
+!s101 -O0
+Xinstr_mem_sv_unit
+R1
+Z83 V^L^]8CUSOPVTBo1`Zd<Nm3
+r1
+31
+Z84 I^L^]8CUSOPVTBo1`Zd<Nm3
+S1
+R2
+R3
+R76
+R77
+R12
+L1 54
+R6
+R78
+R79
+R80
+R10
+R11
+Z85 !s100 7BNFah]PCdQ_Z6;D8:aT93
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vreg_file
+R1
+Z86 If>;=T>U]^J:UH_Q7]l]h_3
+Z87 VkHJ[TbDe99dlUgZJUL9]C1
+S1
+R2
+R3
+Z88 8C:/altera/14.0/141Core/core/lab2/reg_file.sv
+Z89 FC:/altera/14.0/141Core/core/lab2/reg_file.sv
+L0 2
+R6
+r1
+31
+R10
+Z90 !s100 9Ko6CekjZ3ccYoDT7^9[W1
+Z91 !s105 reg_file_sv_unit
+Z92 !s108 1431099704.586000
+Z93 !s107 C:/altera/14.0/141Core/core/lab2/reg_file.sv|
+Z94 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/14.0/141Core/core/lab2|C:/altera/14.0/141Core/core/lab2/reg_file.sv|
+R11
+!i10b 1
+!s85 0
+!s101 -O0

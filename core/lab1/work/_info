@@ -1,0 +1,504 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\14.0\141Core\core\lab1
+valu
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 DXx4 work 11 alu_sv_unit 0 22 Z]9Y5X=PjP_>`;E]:Va^o3
+Z3 VI7lk`SQ8Za@A6?2c<@gWI2
+r1
+31
+Z4 !s100 H_@E?J7P8b^?_AY8^QjHC0
+Z5 IW_QB:3`5>I60]i522N@Q>2
+Z6 !s105 alu_sv_unit
+S1
+Z7 dC:\altera\14.0\141Core\core\lab1
+Z8 w1429205865
+Z9 8C:/altera/14.0/141Core/core/lab1/alu.sv
+Z10 FC:/altera/14.0/141Core/core/lab1/alu.sv
+L0 4
+Z11 OV;L;10.1e;51
+Z12 !s108 1429235881.357000
+Z13 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab1/alu.sv|
+Z14 !s90 +incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|-reportprogress|300|-work|work|-sv|+incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|C:/altera/14.0/141Core/core/lab1/alu.sv|
+Z15 o-work work -sv -O0
+Z16 !s92 +incdir+C:/altera/14.0/141Core/core/lab1 +incdir+C:/altera/14.0/141Core/simulation/modelsim -work work -sv +incdir+C:/altera/14.0/141Core/core/lab1 +incdir+C:/altera/14.0/141Core/simulation/modelsim -O0
+Z17 tSvlog 1
+!s85 0
+!i10b 1
+!s101 -O0
+Xalu_sv_unit
+R1
+Z18 VZ]9Y5X=PjP_>`;E]:Va^o3
+r1
+31
+Z19 !s100 zHmK[L@1Je5L:H3d8G6>T1
+Z20 IZ]9Y5X=PjP_>`;E]:Va^o3
+S1
+R7
+R8
+R9
+R10
+Z21 Fdefinitions.sv
+L1 51
+R11
+R12
+R13
+R14
+R15
+R16
+R17
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vcl_decode
+R1
+Z22 DXx4 work 17 cl_decode_sv_unit 0 22 imafhC3c]0nHEVPPeSRm31
+Z23 Vj2XdPkIgM0O^Hn@`n`AWZ1
+r1
+31
+Z24 !s100 66b459=?z05=amSIT9SIH0
+Z25 Id<ek]^=Ma^[2k5>E13XZm1
+Z26 !s105 cl_decode_sv_unit
+S1
+R7
+R8
+Z27 8C:/altera/14.0/141Core/core/lab1/cl_decode.sv
+Z28 FC:/altera/14.0/141Core/core/lab1/cl_decode.sv
+L0 4
+R11
+Z29 !s108 1429235881.489000
+Z30 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab1/cl_decode.sv|
+Z31 !s90 +incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|-reportprogress|300|-work|work|-sv|+incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|C:/altera/14.0/141Core/core/lab1/cl_decode.sv|
+R15
+R16
+R17
+!s85 0
+!i10b 1
+!s101 -O0
+Xcl_decode_sv_unit
+R1
+Z32 VimafhC3c]0nHEVPPeSRm31
+r1
+31
+Z33 !s100 ;HF^;QI3^^2k0`6IZm7hj2
+Z34 IimafhC3c]0nHEVPPeSRm31
+S1
+R7
+R8
+R27
+R28
+R21
+L1 51
+R11
+R29
+R30
+R31
+R15
+R16
+R17
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vcl_state_machine
+R1
+Z35 DXx4 work 24 cl_state_machine_sv_unit 0 22 `nV=:CM_INE`OaXJWi:Ib3
+Z36 V_HO6g@<O=0IE^>?5Z5=h`1
+r1
+31
+Z37 IciL1i_UXj=;jFTP0F[M]U2
+S1
+R7
+R8
+Z38 8C:/altera/14.0/141Core/core/lab1/cl_state_machine.sv
+Z39 FC:/altera/14.0/141Core/core/lab1/cl_state_machine.sv
+L0 3
+R11
+Z40 !s108 1429235881.640000
+Z41 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab1/cl_state_machine.sv|
+Z42 !s90 +incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|-reportprogress|300|-work|work|-sv|+incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|C:/altera/14.0/141Core/core/lab1/cl_state_machine.sv|
+R15
+R16
+R17
+Z43 !s100 X@LAcL@enmlTU^ASnQhmn3
+Z44 !s105 cl_state_machine_sv_unit
+!s85 0
+!i10b 1
+!s101 -O0
+Xcl_state_machine_sv_unit
+R1
+Z45 V`nV=:CM_INE`OaXJWi:Ib3
+r1
+31
+Z46 I`nV=:CM_INE`OaXJWi:Ib3
+S1
+R7
+R8
+R38
+R39
+R21
+L1 51
+R11
+R40
+R41
+R42
+R15
+R16
+R17
+Z47 !s100 G8>fZKk7<`_c2=^X_=T0m3
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vcore
+R1
+Z48 DXx4 work 12 core_sv_unit 0 22 08Oz@ZoJQ>;624ogzgjWT0
+Z49 V8g;U8en<PLBg@@AL4CL>f3
+r1
+31
+Z50 I=35D1H>MORL^m9knhE<L03
+S1
+R7
+R8
+Z51 8C:/altera/14.0/141Core/core/lab1/core.sv
+Z52 FC:/altera/14.0/141Core/core/lab1/core.sv
+L0 3
+R11
+Z53 !s108 1429235881.893000
+Z54 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab1/core.sv|
+Z55 !s90 +incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|-reportprogress|300|-work|work|-sv|+incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|C:/altera/14.0/141Core/core/lab1/core.sv|
+R15
+R16
+R17
+Z56 !s100 l4QO>Bm@im?Mg2b;XMb5:0
+Z57 !s105 core_sv_unit
+!s85 0
+!i10b 1
+!s101 -O0
+vcore_flattened
+R1
+Z58 DXx4 work 22 core_flattened_sv_unit 0 22 kkSKP[HnLG=L?9[PMo:Z52
+Z59 V2R0=69R;zAfBGzKl1Q]2X0
+r1
+31
+Z60 I6Wk>RW0TjM2nU>YboSza43
+S1
+R7
+R8
+Z61 8C:/altera/14.0/141Core/core/lab1/core_flattened.sv
+Z62 FC:/altera/14.0/141Core/core/lab1/core_flattened.sv
+L0 4
+R11
+Z63 !s108 1429235882.118000
+Z64 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab1/core_flattened.sv|
+Z65 !s90 +incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|-reportprogress|300|-work|work|-sv|+incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|C:/altera/14.0/141Core/core/lab1/core_flattened.sv|
+R15
+R16
+R17
+Z66 !s100 YWz`MLIX7DZbzLoV=Z8Sg3
+Z67 !s105 core_flattened_sv_unit
+!s85 0
+!i10b 1
+!s101 -O0
+Xcore_flattened_sv_unit
+R1
+Z68 VkkSKP[HnLG=L?9[PMo:Z52
+r1
+31
+Z69 IkkSKP[HnLG=L?9[PMo:Z52
+S1
+R7
+R8
+R61
+R62
+R21
+L1 51
+R11
+R63
+R64
+R65
+R15
+R16
+R17
+Z70 !s100 5jYCe_?e7RAXSIonHQD7[1
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+Xcore_sv_unit
+R1
+Z71 V08Oz@ZoJQ>;624ogzgjWT0
+r1
+31
+Z72 I08Oz@ZoJQ>;624ogzgjWT0
+S1
+R7
+R8
+R51
+R52
+R21
+L1 51
+R11
+R53
+R54
+R55
+R15
+R16
+R17
+Z73 !s100 [9VO8JhZiazW<ad3]6m9j2
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vcore_tb
+R1
+Z74 DXx4 work 15 core_tb_sv_unit 0 22 3RiQ@k5oKj=CMb9E_h[Hi3
+Z75 VlN3iUPNV?OYGNgj@DJaoE2
+r1
+31
+Z76 I15TFg6zG>?EnST^Yhdj2[0
+Z77 !s105 core_tb_sv_unit
+S1
+R7
+Z78 w1429234459
+Z79 8C:/altera/14.0/141Core/core/lab1/core_tb.sv
+Z80 FC:/altera/14.0/141Core/core/lab1/core_tb.sv
+Z81 Fdisassemble.sv
+L0 17
+R11
+Z82 !s108 1429235882.272000
+Z83 !s107 disassemble.sv|definitions.sv|C:/altera/14.0/141Core/core/lab1/core_tb.sv|
+Z84 !s90 +incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|-reportprogress|300|-work|work|-sv|+incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|C:/altera/14.0/141Core/core/lab1/core_tb.sv|
+R15
+R16
+R17
+Z85 !s100 WZT;9<fY[8`f?Cf]z?[F83
+!s85 0
+!i10b 1
+!s101 -O0
+Xcore_tb_sv_unit
+R1
+Z86 V3RiQ@k5oKj=CMb9E_h[Hi3
+r1
+31
+Z87 !s100 @DeSKjI3`b;2jee3RZZWz2
+Z88 I3RiQ@k5oKj=CMb9E_h[Hi3
+S1
+R7
+R78
+R79
+R80
+R21
+L1 51
+R11
+R82
+R83
+R84
+R15
+R16
+R17
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vdata_mem
+R1
+Z89 DXx4 work 16 data_mem_sv_unit 0 22 `@lcVOOR0::_TSd>C^F]G3
+Z90 VJTgBNdnj9c=zg80[gUozo3
+r1
+31
+Z91 !s100 db:F?7UME8e6Q>Q_;>la@1
+Z92 If_8fiMIj850hNRGMSUYDF3
+Z93 !s105 data_mem_sv_unit
+S1
+R7
+R8
+Z94 8C:/altera/14.0/141Core/core/lab1/data_mem.sv
+Z95 FC:/altera/14.0/141Core/core/lab1/data_mem.sv
+L0 11
+R11
+Z96 !s108 1429235882.480000
+Z97 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab1/data_mem.sv|
+Z98 !s90 +incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|-reportprogress|300|-work|work|-sv|+incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|C:/altera/14.0/141Core/core/lab1/data_mem.sv|
+R15
+R16
+R17
+!s85 0
+!i10b 1
+!s101 -O0
+Xdata_mem_sv_unit
+R1
+Z99 V`@lcVOOR0::_TSd>C^F]G3
+r1
+31
+Z100 !s100 NdZ<D^EFUP6DlS;T93RA;2
+Z101 I`@lcVOOR0::_TSd>C^F]G3
+S1
+R7
+R8
+R94
+R95
+R21
+L1 51
+R11
+R96
+R97
+R98
+R15
+R16
+R17
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+Xdefinitions_sv_unit
+R1
+Z102 I;4_zOB6=d:0Beg69FAM<l0
+Z103 V;4_zOB6=d:0Beg69FAM<l0
+S1
+R7
+R8
+Z104 8C:/altera/14.0/141Core/core/lab1/definitions.sv
+Z105 FC:/altera/14.0/141Core/core/lab1/definitions.sv
+L0 51
+R11
+r1
+31
+R15
+R16
+R17
+Z106 !s100 ToHoX<TF8hT]EAmDQE0gZ0
+Z107 !s108 1429235882.694000
+Z108 !s107 C:/altera/14.0/141Core/core/lab1/definitions.sv|
+Z109 !s90 +incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|-reportprogress|300|-work|work|-sv|+incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|C:/altera/14.0/141Core/core/lab1/definitions.sv|
+!i10b 1
+!i103 1
+!s85 0
+!s101 -O0
+vinstr_mem
+R1
+Z110 DXx4 work 17 instr_mem_sv_unit 0 22 K1ZI80[iB?@TgoDL?4Zbj1
+Z111 VFbL0l?mC^hD9I>mmSWaGQ0
+r1
+31
+Z112 IF35_mTQaKX@_1R:n0KNCL3
+S1
+R7
+R8
+Z113 8C:/altera/14.0/141Core/core/lab1/instr_mem.sv
+Z114 FC:/altera/14.0/141Core/core/lab1/instr_mem.sv
+L0 5
+R11
+Z115 !s108 1429235882.943000
+Z116 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab1/instr_mem.sv|
+Z117 !s90 +incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|-reportprogress|300|-work|work|-sv|+incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|C:/altera/14.0/141Core/core/lab1/instr_mem.sv|
+R15
+R16
+R17
+Z118 !s100 Y7jCmF=3a=^GAh2UL6O=o0
+Z119 !s105 instr_mem_sv_unit
+!s85 0
+!i10b 1
+!s101 -O0
+Xinstr_mem_sv_unit
+R1
+Z120 VK1ZI80[iB?@TgoDL?4Zbj1
+r1
+31
+Z121 IK1ZI80[iB?@TgoDL?4Zbj1
+S1
+R7
+R8
+R113
+R114
+R21
+L1 51
+R11
+R115
+R116
+R117
+R15
+R16
+R17
+Z122 !s100 U0md3o`?BYF6jc7RJ9F0l2
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+Xnet_packet_logger_s_sv_unit
+R1
+Z123 VbNA;CF=B00NRVgCAACbNA0
+r1
+31
+Z124 !s100 TR[5oe2?]5J]nJ6gMTXG[3
+Z125 IbNA;CF=B00NRVgCAACbNA0
+S1
+R7
+R8
+Z126 8C:/altera/14.0/141Core/core/lab1/net_packet_logger_s.sv
+Z127 FC:/altera/14.0/141Core/core/lab1/net_packet_logger_s.sv
+R21
+L1 51
+R11
+Z128 !s108 1429235883.163000
+Z129 !s107 definitions.sv|C:/altera/14.0/141Core/core/lab1/net_packet_logger_s.sv|
+Z130 !s90 +incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|-reportprogress|300|-work|work|-sv|+incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|C:/altera/14.0/141Core/core/lab1/net_packet_logger_s.sv|
+R15
+R16
+R17
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vnetwork_packet_s_logger
+R1
+Z131 DXx4 work 27 net_packet_logger_s_sv_unit 0 22 bNA;CF=B00NRVgCAACbNA0
+Z132 VPlgif>=;4=jBTE<GHm7GV1
+r1
+31
+Z133 !s100 ZPoAdNg[3i2cXUBL7`md=2
+Z134 I4^RmGI:j:NVLim^14VUc53
+Z135 !s105 net_packet_logger_s_sv_unit
+S1
+R7
+R8
+R126
+R127
+L0 8
+R11
+R128
+R129
+R130
+R15
+R16
+R17
+!s85 0
+!i10b 1
+!s101 -O0
+vreg_file
+R1
+!i10b 1
+!s100 :fJa^C=JCHmBKcRGgAka;0
+IJe5Vm?l>>WYLdWj^LbXiW3
+VD74VOFVKJXa3lQF`;:Obz1
+!s105 reg_file_sv_unit
+S1
+R7
+R8
+8C:/altera/14.0/141Core/core/lab1/reg_file.sv
+FC:/altera/14.0/141Core/core/lab1/reg_file.sv
+L0 2
+R11
+r1
+!s85 0
+31
+!s108 1429235883.327000
+!s107 C:/altera/14.0/141Core/core/lab1/reg_file.sv|
+!s90 +incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|-reportprogress|300|-work|work|-sv|+incdir+C:/altera/14.0/141Core/core/lab1|+incdir+C:/altera/14.0/141Core/simulation/modelsim|C:/altera/14.0/141Core/core/lab1/reg_file.sv|
+!s101 -O0
+R15
+R16
+R17
